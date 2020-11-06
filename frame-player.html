@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="h-100">
+	<head>
+		<title>Frame Player</title>
+		<link rel="icon" href="https://favicon-generator.org/favicon-generator/htdocs/favicons/2015-01-22/e64212f26b8926deee6020e1ab0ef0a9.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body class="d-flex h-100 text-center text-white bg-dark">
+		<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+			<header class="mb-auto">
+				<div><h3 class="float-md-center mb-0">Frame Player</h3>
+				</div>
+			</header>
+			<main class="px-3">
+				<hr>
+				<h1>FRAME PLAYER</h1>
+				<hr>
+				<div class="container" id="frame"></div>
+				<input type="button" onclick="pause()" value="Pause" id="pause"/>
+				<input type="button" onclick="resume()" value="Resume" id="resume"/>
+			</main>
+			<footer class="mt-auto text-white-50"></footer>
+		</div>
+		<script type="text/javascript" src="frame-player.js"></script>
+	</body>
+</html>
